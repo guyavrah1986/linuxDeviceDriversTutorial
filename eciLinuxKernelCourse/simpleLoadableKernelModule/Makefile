@@ -1,4 +1,4 @@
-# Makefile for the hello module
+# Makefile for the simple kernel module
 obj-m += simpleKernelModule.o 
 KDIR ?= /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
