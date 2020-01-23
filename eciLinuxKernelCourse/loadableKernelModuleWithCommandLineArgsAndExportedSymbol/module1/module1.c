@@ -6,6 +6,9 @@ MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("A simple kernel module");
 MODULE_AUTHOR("Guy Avraham");
 
+const int exportedIntVarSymbol = 17;
+EXPORT_SYMBOL(exportedIntVarSymbol);
+
 
 static int __init hello_init(void)
 {
