@@ -1,4 +1,4 @@
-# Makefile for the simple kernel module
+# Makefile for the simple kernel module that exports symbols from module1
 KBUILD_EXTRA_SYMBOLS := /home/gavraham/dev/linuxDeviceDriversTutorial/eciLinuxKernelCourse/loadableKernelModuleWithCommandLineArgsAndExportedSymbol/module1/build/Module.symvers
 
 obj-m += module2.o 
