@@ -12,7 +12,7 @@ EXPORT_SYMBOL(exportedIntVarSymbol);
 
 static int __init hello_init(void)
 {
-	printk(KERN_ALERT "hello_init - module is loaded\n");
+	printk(KERN_ALERT "hello_init - module is loaded and is exporting variable %s with value:%d\n", "exportedIntVarSymbol", exportedIntVarSymbol);
 	return 0;
 }
 
